@@ -184,10 +184,6 @@ function allyProps(index) {
 export default function BasicTabs() {
   const [value, setValue] = React.useState(0);
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
   return (
     <div>
       <Grid container justifyContent='center' style={{ padding: '30px' }} spacing={3}>
