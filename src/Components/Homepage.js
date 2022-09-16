@@ -1,6 +1,6 @@
 import React from 'react'
 import DukeSky from './Resources/HomepageImages/dukesky.webp'
-import { Grid, Typography, Box, CardContent, Card, Avatar, CardMedia, CardActionArea, Paper, Button, Link } from '@mui/material'
+import { Grid, Typography, CardContent, Card, Avatar, CardMedia, Paper, Button, Link } from '@mui/material'
 import JerryAvatar from './Resources/HomepageImages/jerryavatar.png'
 
 

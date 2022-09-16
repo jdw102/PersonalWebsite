@@ -1,11 +1,8 @@
 import { Typography, Card, Grid } from '@mui/material'
 import React from 'react'
 import BeachPic from './Resources/AboutImages/beachfam.jpg'
-import BelowChapel from './Resources/AboutImages/belowchapel.jpg'
 
 const About = () =>{
-    const [aboutText, setAboutText] = React.useState("");
-
     return (
         <div>
             <Grid container spacing = {3} style = {{ padding: '30px'}} justifyContent = "center" alignItems = "center">

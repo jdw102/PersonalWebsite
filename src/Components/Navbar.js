@@ -1,10 +1,8 @@
 import React from 'react'
-import {AppBar, Box, Tab, Tabs, Toolbar, Avatar, Typography, Grid, IconButton, Button, makeStyles, createStyles, Icon} from '@mui/material';
+import {AppBar, Box, Toolbar, Avatar, Typography, Grid, IconButton, Button} from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedIn from '@mui/icons-material/LinkedIn';
-import { Link, Menu, MenuItem } from '@mui/material';
+import { Link } from '@mui/material';
 import {NavLink} from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import HandshakeLogo from './Resources/handshakelogo.png'

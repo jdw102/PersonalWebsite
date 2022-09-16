@@ -1,4 +1,3 @@
-import { Card } from "@mui/material";
 import { useState } from "react";
 
 const slideStyles = {
@@ -93,8 +92,8 @@ const ImageSlider = ({ slides }) => {
           ❱
         </div>
       </div>
-      {slides[currentIndex].type == "video" && <iframe width= {width} height = {height} style = {{borderRadius: '10px'}} allowFullScreen src = {`https://www.youtube.com/embed/${slides[currentIndex].url}`}> </iframe>}
-      {slides[currentIndex].type == "image" && <div  style={slideStylesWidthBackground}></div>}
+      {slides[currentIndex].type === "video" && <iframe width= {width} height = {height} style = {{borderRadius: '10px'}} title = {slides[currentIndex].name}allowFullScreen src = {`https://www.youtube.com/embed/${slides[currentIndex].url}`}> </iframe>}
+      {slides[currentIndex].type === "image" && <div  style={slideStylesWidthBackground}></div>}
       <div style={dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
           <div

@@ -1,12 +1,11 @@
-import { Grid, Tab, Tabs, Typography, Box, Card } from '@mui/material'
+import { Grid, Typography, Card } from '@mui/material'
 import React from 'react'
-import { useState } from 'react';
 import ImageSlider from './ImageSlider';
 
 
 
 const ProjectTab = (props) =>{
-  
+
 
     return (
         <Grid container justifyContent= 'space-evenly' alignItems = 'center' >

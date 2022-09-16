@@ -1,23 +1,10 @@
-import { Accordion, AccordionDetails, AccordionSummary, Card, Divider, Grid, IconButton, ListItem, ListItemAvatar, ListItemSecondaryAction, ListItemText, Paper, Typography } from '@mui/material'
+import { Accordion, AccordionDetails, AccordionSummary, Card, Grid, ListItem, Typography } from '@mui/material'
 import React from 'react'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import DocumentsTable from './DocumentTable';
-import { Document } from 'react-pdf';
 import Resume from '../Resources/worthy_resume.pdf'
-import Download from '@mui/icons-material/Download';
-import VisibilityIcon from '@mui/icons-material/Visibility';
 
-
-
-const resumedocs = [
-    {
-        title: "Resume",
-        description: "My resume detailing my previous work experience and academic standing."
-    }
-]
 
 const Documents = () =>{
-    const ResumeDoc = React.useMemo(() => Resume);
     return (
         <div>
         <Grid container justifyContent= "center"  sx = {{paddingTop: '30px'}}>
@@ -29,7 +16,7 @@ const Documents = () =>{
                             </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                        <object data= {Resume} type="application/pdf"  width ="100%" height="500px" />
+                        <object data= {Resume} type="application/pdf" aria-label='resume' width ="100%" height="500px" />
                     </AccordionDetails>
                 </Accordion>
             </Grid>

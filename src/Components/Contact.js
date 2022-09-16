@@ -1,7 +1,6 @@
-import { Card, CardActionArea, CardContent, CardHeader, CardMedia, Grid, Typography, IconButton, Avatar, Link } from '@mui/material'
+import { Card, CardContent, CardMedia, Grid, Typography,  Avatar, Link } from '@mui/material'
 import React from 'react'
 import EmailIcon from '@mui/icons-material/Email';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import LinkedIn from '@mui/icons-material/LinkedIn';
 import HandshakeLogo from './Resources/handshakelogo.png'
 
