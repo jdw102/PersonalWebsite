@@ -46,16 +46,41 @@ const projects = [
   },
   {
     id: 1,
-    title: "Breakout Game",
-    description: "Using JavaFX I created my own version of the game breakout, complete with the basic gameplay loop, different levels constructed from text files, power-ups, varying ball deflections, and a high score record. This project was a great way to practice utilizing the advantages of object-oriented programming, by letting me play around with abstract classes, inheritance, and the overall structure of my code. It proved to me that design and form of code in a program is often just as important as functionality. The video shown here shows some gameplay footage of the first 2 levels of the game.",
-    textsize: 6,
+    title: "JavaFX Applications",
+    description: "Using JavaFX I worked in groups of varying sizes to develop applications that\
+    helped me practice object-oriented programming and working in development teams. This includes a version of the game Breakout that I created by myself, complete with the basic gameplay loop, different levels constructed from text files,\
+    power-ups, varying ball deflections, and a high score record. Another project,\
+    was a turtle-drawing and growth-modeling application that allows users to create drawings and model recursive growth using set commands in an IDE. Lastly, I worked\
+    on a project that allowed users to play with different cell modeling simulations by\
+    loading in different simulation algorithms and setting their own starting cell states\
+    either by loading in their own files or by manually clicking on individual cells.\
+    These projects were a great way to practice utilizing the advantages of object-oriented programming,\
+    by letting me play around with abstract classes, inheritance, and the overall \
+    structure of my code. It proved to me that design and form of code in a program\
+    is often just as important as functionality, and taught me a lot about different\
+    object-oriented design principles. The videos shown here shows some gameplay footage of the first 2 levels of the game as well as some of the things the other two applications can do.",
+    textsize: 10,
     images: [
       {
         url: "FklL9ZHYz08",
         name: "breakout gameplay",
         type : "video",
-        width: "450px",
-        height: "450px"
+        width: "700px",
+        height: "600px"
+      },
+      {
+        url: "9_RuolQx5uk",
+        name: "drawing app",
+        type : "video",
+        width: "700px",
+        height: "600px"
+      },
+      {
+        url: "S9eeIF_7JOY",
+        name: "cell app",
+        type : "video",
+        width: "700px",
+        height: "600px"
       }
     ],
     links: [],
